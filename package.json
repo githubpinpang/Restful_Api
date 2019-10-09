@@ -1,0 +1,28 @@
+{
+  "name": "Restful_Api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.2.2",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "jade": "^1.11.0",
+    "joi": "^14.3.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
+    "passport": "^0.4.0",
+    "pug": "^2.0.4",
+    "randomstring": "^1.1.5"
+  }
+}
